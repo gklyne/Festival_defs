@@ -1,0 +1,30 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/test_event",
+  "@type": [
+    "prov:Activity",
+    "crm:E5_Event",
+    "annal:EntityData"
+  ],
+  "annal:id": "test_event",
+  "annal:type": "prov:Activity",
+  "annal:type_id": "Event",
+  "crm:P7_took_place_at": "Place/test_venue",
+  "entity:seeAlso_r": [],
+  "prov:qualifiedAssociation": [
+    {
+      "crm:P12i_was_present_at": "Presenter/test_presenter",
+      "prov:hadRole": "Role/test_role"
+    }
+  ],
+  "prov:startedAtDate": "2025-01-13",
+  "prov:startedAtDate__2": "17:00",
+  "prov:startedAtTime": "2025-01-13T17:00",
+  "rdfs:comment": "Example of a festival event",
+  "rdfs:label": "Test Event"
+}

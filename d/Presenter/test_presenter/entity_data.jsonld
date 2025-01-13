@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Presenter/test_presenter",
+  "@type": [
+    "fest:Presenter",
+    "prov:Entity",
+    "crm:E77_Persistent_Item",
+    "crm:E39_Actor",
+    "crm:E21_Person",
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:id": "test_presenter",
+  "annal:type": "fest:Presenter",
+  "annal:type_id": "Presenter",
+  "entity:seeAlso_r": [],
+  "perf:performs_role": [
+    {
+      "@id": "Role/test_role"
+    }
+  ],
+  "rdfs:comment": "Example of person or group who present or perform in a festival event",
+  "rdfs:label": "Test Presenter"
+}

@@ -1,0 +1,27 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Presentation",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Presentation",
+  "annal:ns_prefix": "",
+  "annal:supertype_uri": [
+    {
+      "@id": "prov:Activity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Presentations",
+  "annal:type_view": "_view/Presentation",
+  "annal:uri": "fest:Presentation",
+  "rdfs:comment": "# Presentation or other festival event\r\n\r\nA presentation, performance or other event that is part of a festival",
+  "rdfs:label": "Presentation"
+}

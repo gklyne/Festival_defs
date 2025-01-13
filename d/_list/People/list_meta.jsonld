@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/People",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/Person",
+  "annal:default_view": "_view/Person",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "People",
+  "annal:list_entity_selector": "\"crm:E21_Person\" in [@type]",
+  "annal:list_entity_type": "crm:E21_Person",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Person_m",
+      "annal:field_placement": "small:0,9"
+    },
+    {
+      "annal:field_id": "_field/Name",
+      "annal:field_placement": "small:9,3"
+    }
+  ],
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "List of people",
+  "rdfs:label": "List of people"
+}

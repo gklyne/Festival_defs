@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Event",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Event",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E5_Event"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Events",
+  "annal:type_view": "_view/Event",
+  "annal:uri": "prov:Activity",
+  "rdfs:comment": "An event that takes place in a specific time and place (such as manufacture of an artifact or performance of some music)",
+  "rdfs:label": "Event"
+}

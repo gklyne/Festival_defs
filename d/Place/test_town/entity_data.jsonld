@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Place/test_town",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:id": "test_town",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "Place",
+  "crm:P89_falls_within": "",
+  "crm:P89i_contains_repeat": [
+    {
+      "crm:P89i_contains": "Place/test_venue"
+    }
+  ],
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "Example town which may contain a number of venues",
+  "rdfs:label": "Test town"
+}

@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Agent/test_agent",
+  "@type": [
+    "prov:Agent",
+    "crm:E77_Persistent_Item",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "test_agent",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Agent",
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "Example Person or other entity who performs a role in the conduct of an event or activity.  Subsumes people, groups/ensembles, software agents and more.",
+  "rdfs:label": "Test Agent"
+}

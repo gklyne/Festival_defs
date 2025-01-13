@@ -1,0 +1,24 @@
+{
+  "@context": [
+    {
+      "@base": "./"
+    },
+    "coll_context.jsonld"
+  ],
+  "@id": "../",
+  "@type": [
+    "annal:Collection"
+  ],
+  "annal:default_list": "",
+  "annal:default_view_entity": "01_Festival_front_page",
+  "annal:default_view_id": "Journal_entry",
+  "annal:default_view_type": "Journal",
+  "annal:id": "Festival_defs",
+  "annal:inherit_from": "_coll/Resource_defs",
+  "annal:meta_comment": "Festival event definitions",
+  "annal:software_version": "0.5.9",
+  "annal:type": "annal:Collection",
+  "annal:type_id": "_coll",
+  "rdfs:comment": "Festival event definitions",
+  "rdfs:label": "Festival event definitions"
+}
