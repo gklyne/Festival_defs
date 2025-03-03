@@ -5,7 +5,7 @@
     },
     "../../coll_context.jsonld"
   ],
-  "@id": "_field/Person_r",
+  "@id": "_field/Lead_person_r",
   "@type": [
     "annal:Field"
   ],
@@ -18,7 +18,7 @@
       "annal:property_uri": ""
     },
     {
-      "annal:field_id": "_field/Agent_role",
+      "annal:field_id": "_field/Role",
       "annal:field_placement": "small:8,4",
       "annal:property_uri": ""
     }
@@ -30,15 +30,15 @@
   "annal:field_render_type": "_enum_render_type/Group_Seq_Row",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Field_group",
-  "annal:id": "Person_r",
+  "annal:id": "Lead_person_r",
   "annal:placeholder": "",
-  "annal:property_uri": "prov:qualifiedAssociation",
-  "annal:repeat_label_add": "Add person",
-  "annal:repeat_label_delete": "Remove person",
+  "annal:property_uri": "fest:lead_person",
+  "annal:repeat_label_add": "Add lead person",
+  "annal:repeat_label_delete": "Remove lead person",
   "annal:superproperty_uri": [],
-  "annal:tooltip": "People involved in an event",
+  "annal:tooltip": "Lead people at a venue",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "# People\r\n\r\nPeople involved in an event",
-  "rdfs:label": "People"
+  "rdfs:comment": "# Lead people at a venue\r\n\r\nLead people at a venue",
+  "rdfs:label": "Lead people"
 }

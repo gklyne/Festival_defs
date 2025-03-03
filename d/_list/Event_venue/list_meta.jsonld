@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/Event_venue",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/Event_venue",
+  "annal:default_view": "_view/Event_venue",
+  "annal:display_type": "List",
+  "annal:id": "Event_venue",
+  "annal:list_entity_selector": "'fest:Event_venue' in [@type]",
+  "annal:list_entity_type": "fest:Event_venue",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "# Venue list\n\nList entities of type [Venue]($BASE:_type/Event_venue).",
+  "rdfs:label": "Venue list"
+}

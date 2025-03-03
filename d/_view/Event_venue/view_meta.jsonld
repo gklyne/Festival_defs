@@ -5,16 +5,15 @@
     },
     "../../coll_context.jsonld"
   ],
-  "@id": "_view/Event",
+  "@id": "_view/Event_venue",
   "@type": [
     "annal:View"
   ],
-  "annal:id": "Event",
+  "annal:id": "Event_venue",
   "annal:open_view": true,
   "annal:type": "annal:View",
   "annal:type_id": "_view",
-  "annal:uri": "annal:display/Default_view",
-  "annal:view_entity_type": "prov:Activity",
+  "annal:view_entity_type": "fest:Event_venue",
   "annal:view_fields": [
     {
       "annal:field_id": "_field/Entity_id",
@@ -22,7 +21,7 @@
       "annal:property_uri": ""
     },
     {
-      "annal:field_id": "_field/Entity_type",
+      "annal:field_id": "_field/Place_within",
       "annal:field_placement": "small:0,12;medium:6,6",
       "annal:property_uri": ""
     },
@@ -32,32 +31,12 @@
       "annal:property_uri": ""
     },
     {
-      "annal:field_id": "_field/Place",
-      "annal:field_placement": "small:0,12",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/Event_date",
-      "annal:field_placement": "small:0,6",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/Event_time",
-      "annal:field_placement": "small:0,12;medium:6,6",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/Event_theme_r",
-      "annal:field_placement": "small:0,12",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/Presenter_r",
-      "annal:field_placement": "small:0,12",
-      "annal:property_uri": ""
-    },
-    {
       "annal:field_id": "_field/Entity_comment",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Place_contains_r",
       "annal:field_placement": "small:0,12",
       "annal:property_uri": ""
     },
@@ -65,8 +44,13 @@
       "annal:field_id": "_field/See_also_r",
       "annal:field_placement": "small:0,12",
       "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Person_r",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
     }
   ],
-  "rdfs:comment": "Display/edit details of a generic event or activity",
-  "rdfs:label": "Event or activity"
+  "rdfs:comment": "# Venue view\r\n\r\nView entity of type [Venue]($BASE:_type/Event_venue).",
+  "rdfs:label": "Venue view"
 }

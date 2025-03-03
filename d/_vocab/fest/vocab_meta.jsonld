@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/fest",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "fest",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://id.annalist.net/fest/",
+  "rdfs:comment": "## Festival terms (vocabulary namespace)\r\n\r\nThis namespace is used for terms that are specific to festival data.\r\n\r\nTerms in this namespace may alsoi be subtypes or sub-properties of other, more widely used, namespace terms.,\r\n",
+  "rdfs:label": "Festival terms",
+  "rdfs:seeAlso": []
+}

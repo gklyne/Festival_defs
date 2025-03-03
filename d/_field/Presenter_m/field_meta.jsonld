@@ -32,7 +32,7 @@
   "annal:field_value_type": "crm:E39_Actor",
   "annal:id": "Presenter_m",
   "annal:placeholder": "(select performer)",
-  "annal:property_uri": "prov:agent",
+  "annal:property_uri": "prov:wasAssociatedWith",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:superproperty_uri": [],

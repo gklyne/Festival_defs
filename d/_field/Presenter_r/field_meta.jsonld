@@ -18,7 +18,7 @@
       "annal:property_uri": ""
     },
     {
-      "annal:field_id": "_field/Role",
+      "annal:field_id": "_field/Agent_role",
       "annal:field_placement": "small:6,6",
       "annal:property_uri": ""
     }

@@ -21,12 +21,17 @@
       "annal:property_uri": ""
     },
     {
-      "annal:field_id": "_field/Entity_type",
-      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:field_id": "_field/Name",
+      "annal:field_placement": "small:0,12",
       "annal:property_uri": ""
     },
     {
-      "annal:field_id": "_field/Name",
+      "annal:field_id": "_field/contact_t",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Agent_roles",
       "annal:field_placement": "small:0,12",
       "annal:property_uri": ""
     },

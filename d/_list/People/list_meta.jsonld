@@ -17,7 +17,7 @@
   "annal:list_entity_type": "crm:E21_Person",
   "annal:list_fields": [
     {
-      "annal:field_id": "_field/Person_m",
+      "annal:field_id": "_field/Person_id",
       "annal:field_placement": "small:0,9"
     },
     {

@@ -8,16 +8,21 @@
   "@id": "Person/test_person",
   "@type": [
     "crm:E21_Person",
-    "crm:E39_Actor",
     "prov:Agent",
-    "prov:Entity",
     "crm:E77_Persistent_Item",
+    "prov:Entity",
+    "crm:E39_Actor",
     "annal:EntityData"
   ],
   "annal:id": "test_person",
   "annal:type": "crm:E21_Person",
   "annal:type_id": "Person",
   "entity:seeAlso_r": [],
-  "rdfs:comment": "Example record describing a person who is involved in some way with a festival",
+  "fest:contact": [
+    {
+      "@id": "mailto:test@example.com"
+    }
+  ],
+  "rdfs:comment": "Example record describing a person who is involved in some way with a festival.",
   "rdfs:label": "Test Person"
 }

@@ -10,7 +10,7 @@
     "annal:List"
   ],
   "annal:default_type": "_type/Agent",
-  "annal:default_view": "_view/Person",
+  "annal:default_view": "_view/Agent",
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Agents",
   "annal:list_entity_selector": "\"prov:Agent\" in [@type]",

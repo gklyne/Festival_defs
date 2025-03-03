@@ -1,0 +1,27 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Event_venue",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Event_venue",
+  "annal:ns_prefix": "fest",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E53_Place"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Event_venue",
+  "annal:type_view": "_view/Event_venue",
+  "annal:uri": "fest:Event_venue",
+  "rdfs:comment": "# Venue for festival event\r\n\r\nEntity type [Venue for festival event, a Place or event location]($BASE:_type/Event_venue), subtype of [Place or event location]($BASE:_type/Place).",
+  "rdfs:label": "Venue"
+}

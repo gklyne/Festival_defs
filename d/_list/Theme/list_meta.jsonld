@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/Theme",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/Theme",
+  "annal:default_view": "_view/Theme",
+  "annal:display_type": "List",
+  "annal:id": "Theme",
+  "annal:list_entity_selector": "'fest:Theme' in [@type]",
+  "annal:list_entity_type": "fest:Theme",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "annal:uri": "annal:display/Default_list",
+  "rdfs:comment": "# Theme or topic list\n\nList entities of type [Theme or topic]($BASE:_type/Theme).",
+  "rdfs:label": "Theme or topic list"
+}

@@ -16,6 +16,7 @@
     }
   ],
   "annal:id": "Person",
+  "annal:ns_prefix": "",
   "annal:supertype_uri": [
     {
       "@id": "prov:Entity"
@@ -32,7 +33,7 @@
   ],
   "annal:type": "annal:Type",
   "annal:type_id": "_type",
-  "annal:type_list": "_list/Agents",
+  "annal:type_list": "_list/People",
   "annal:type_view": "_view/Person",
   "annal:uri": "crm:E21_Person",
   "rdfs:comment": "Person (as agent)\r\n\r\nSee also: [Agent](../Agent).",
