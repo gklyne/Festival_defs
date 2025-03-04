@@ -16,6 +16,12 @@
   "annal:type": "prov:Agent",
   "annal:type_id": "Agent",
   "entity:seeAlso_r": [],
+  "fest:contact": [],
+  "fest:performs_role": [
+    {
+      "@id": "Role/test_role"
+    }
+  ],
   "rdfs:comment": "Example Person or other entity who performs a role in the conduct of an event or activity.  Subsumes people, groups/ensembles, software agents and more.",
   "rdfs:label": "Test Agent"
 }

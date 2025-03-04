@@ -22,23 +22,23 @@
       "annal:property_uri": ""
     },
     {
-      "annal:field_id": "_field/Entity_type",
-      "annal:field_placement": "small:0,12;medium:6,6",
-      "annal:property_uri": ""
-    },
-    {
       "annal:field_id": "_field/Entity_label",
       "annal:field_placement": "small:0,12",
       "annal:property_uri": ""
     },
     {
       "annal:field_id": "_field/Place",
-      "annal:field_placement": "small:0,12",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Event_format",
+      "annal:field_placement": "small:0,12;medium:6,6",
       "annal:property_uri": ""
     },
     {
       "annal:field_id": "_field/Event_date",
-      "annal:field_placement": "small:0,6",
+      "annal:field_placement": "small:0,12;medium:0,6",
       "annal:property_uri": ""
     },
     {

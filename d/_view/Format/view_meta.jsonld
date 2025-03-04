@@ -5,25 +5,20 @@
     },
     "../../coll_context.jsonld"
   ],
-  "@id": "_view/Theme",
+  "@id": "_view/Format",
   "@type": [
     "annal:View"
   ],
-  "annal:id": "Theme",
+  "annal:id": "Format",
   "annal:open_view": true,
   "annal:type": "annal:View",
   "annal:type_id": "_view",
   "annal:uri": "annal:display/Default_view",
-  "annal:view_entity_type": "fest:Theme",
+  "annal:view_entity_type": "fest:Format",
   "annal:view_fields": [
     {
       "annal:field_id": "_field/Entity_id",
       "annal:field_placement": "small:0,12;medium:0,6",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/Broader_theme",
-      "annal:field_placement": "small:0,12;medium:6,6",
       "annal:property_uri": ""
     },
     {
@@ -42,6 +37,6 @@
       "annal:property_uri": ""
     }
   ],
-  "rdfs:comment": "# Theme or topic view\r\n\r\nView entity of type [Theme or topic]($BASE:_type/Theme).",
-  "rdfs:label": "Theme or topic view"
+  "rdfs:comment": "# Event format view\r\n\r\nView entity of type [Format]($BASE:_type/Format).",
+  "rdfs:label": "Event format view"
 }

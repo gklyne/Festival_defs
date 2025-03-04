@@ -16,10 +16,19 @@
   "annal:type_id": "Event",
   "crm:P7_took_place_at": "Place/test_venue",
   "entity:seeAlso_r": [],
+  "fest:event_format": "Format/test_format",
+  "fest:event_theme": [
+    {
+      "@id": "Theme/test_theme"
+    },
+    {
+      "@id": "Theme/test_subtheme"
+    }
+  ],
   "prov:qualifiedAssociation": [
     {
       "crm:P12i_was_present_at": "Presenter/test_presenter",
-      "prov:hadRole": "Role/test_role"
+      "fest:performs_role": "Role/test_role"
     }
   ],
   "prov:startedAtDate": "2025-01-13",

@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Theme/test_subtheme",
+  "@type": [
+    "fest:Theme",
+    "crm:E55_Type",
+    "annal:EntityData"
+  ],
+  "annal:id": "test_subtheme",
+  "annal:type": "fest:Theme",
+  "annal:type_id": "Theme",
+  "rdfs:comment": "Test subtheme",
+  "rdfs:label": "Test subtheme",
+  "rdfs:seeAlso": [],
+  "skos:broader": "Theme/test_theme"
+}

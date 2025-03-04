@@ -8,17 +8,22 @@
   "@id": "Presenter/test_presenter",
   "@type": [
     "fest:Presenter",
-    "prov:Entity",
-    "crm:E77_Persistent_Item",
-    "crm:E39_Actor",
     "crm:E21_Person",
     "prov:Agent",
+    "crm:E39_Actor",
+    "crm:E77_Persistent_Item",
+    "prov:Entity",
     "annal:EntityData"
   ],
   "annal:id": "test_presenter",
   "annal:type": "fest:Presenter",
   "annal:type_id": "Presenter",
   "entity:seeAlso_r": [],
+  "fest:performs_role": [
+    {
+      "@id": "Role/test_role"
+    }
+  ],
   "perf:performs_role": [
     {
       "@id": "Role/test_role"

@@ -23,6 +23,11 @@
       "@id": "mailto:test@example.com"
     }
   ],
+  "fest:performs_role": [
+    {
+      "@id": "Role/test_role"
+    }
+  ],
   "rdfs:comment": "Example record describing a person who is involved in some way with a festival.",
   "rdfs:label": "Test Person"
 }

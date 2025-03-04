@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Format/test_format",
+  "@type": [
+    "fest:Format",
+    "annal:EntityData"
+  ],
+  "annal:id": "test_format",
+  "annal:type": "fest:Format",
+  "annal:type_id": "Format",
+  "annal:uri": "fest:test_format",
+  "rdfs:comment": "## Test format\r\n\r\nIndicates the format of an event, such as a talk, performance, demonstration, etc.",
+  "rdfs:label": "Test format"
+}

@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/Formats",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/Format",
+  "annal:default_view": "_view/Format",
+  "annal:display_type": "List",
+  "annal:id": "Formats",
+  "annal:list_entity_selector": "'fest:Format' in [@type]",
+  "annal:list_entity_type": "fest:Format",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "annal:uri": "annal:display/Default_list",
+  "rdfs:comment": "# Format of event\n\nList entities of type [Format of event]($BASE:_type/Format).",
+  "rdfs:label": "Format of event"
+}

@@ -1,0 +1,18 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/test_role",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:id": "test_role",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Test role",
+  "rdfs:label": "Test role"
+}

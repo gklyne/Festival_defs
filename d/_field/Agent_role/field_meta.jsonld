@@ -20,7 +20,7 @@
   "annal:field_value_mode": "_enum_value_mode/Value_entity",
   "annal:field_value_type": "prov:Role",
   "annal:id": "Agent_role",
-  "annal:placeholder": "",
+  "annal:placeholder": "(Role)",
   "annal:property_uri": "fest:performs_role",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
