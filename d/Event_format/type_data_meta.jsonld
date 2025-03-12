@@ -5,11 +5,11 @@
     },
     "../coll_context.jsonld"
   ],
-  "@id": "Format",
+  "@id": "Event_format",
   "@type": [
     "annal:Type_Data"
   ],
-  "annal:id": "Format",
+  "annal:id": "Event_format",
   "annal:type": "annal:Type_Data",
   "annal:type_id": "_entitytypedata"
 }

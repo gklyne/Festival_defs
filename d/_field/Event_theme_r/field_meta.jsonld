@@ -23,7 +23,7 @@
   "annal:field_ref_type": "",
   "annal:field_render_type": "_enum_render_type/Group_Set_Row",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
-  "annal:field_value_type": "fest:Theme",
+  "annal:field_value_type": "fest:Event_theme",
   "annal:id": "Event_theme_r",
   "annal:placeholder": "(Zero, one or more theme or topic fields)",
   "annal:property_uri": "fest:event_theme",

@@ -5,19 +5,19 @@
     },
     "../../coll_context.jsonld"
   ],
-  "@id": "_type/Format",
+  "@id": "_type/Event_format",
   "@type": [
     "annal:Type"
   ],
   "annal:field_aliases": [],
-  "annal:id": "Format",
+  "annal:id": "Event_format",
   "annal:ns_prefix": "fest",
   "annal:supertype_uri": [],
   "annal:type": "annal:Type",
   "annal:type_id": "_type",
-  "annal:type_list": "_list/Formats",
-  "annal:type_view": "_view/Format",
-  "annal:uri": "fest:Format",
+  "annal:type_list": "_list/Event_formats",
+  "annal:type_view": "_view/Event_format",
+  "annal:uri": "fest:Event_format",
   "rdfs:comment": "# Format of event\r\n\r\nIndication of the format of an event; e.g. Talk, Demonstration , Performance, Discussion, etc.",
   "rdfs:label": "Format of event"
 }

@@ -51,6 +51,6 @@
       "annal:property_uri": ""
     }
   ],
-  "rdfs:comment": "# Venue view\r\n\r\nView entity of type [Venue]($BASE:_type/Event_venue).",
-  "rdfs:label": "Venue view"
+  "rdfs:comment": "# Event venue view\r\n\r\nView entity of type [Event venue]($BASE:_type/Event_venue).",
+  "rdfs:label": "Event venue view"
 }

@@ -23,5 +23,5 @@
   "annal:type_view": "_view/Event_venue",
   "annal:uri": "fest:Event_venue",
   "rdfs:comment": "# Venue for festival event\r\n\r\nEntity type [Venue for festival event, a Place or event location]($BASE:_type/Event_venue), subtype of [Place or event location]($BASE:_type/Place).",
-  "rdfs:label": "Venue"
+  "rdfs:label": "Event venue"
 }

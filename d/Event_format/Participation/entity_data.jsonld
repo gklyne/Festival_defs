@@ -1,0 +1,20 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event_format/Participation",
+  "@type": [
+    "fest:Event_format",
+    "annal:EntityData"
+  ],
+  "annal:id": "Participation",
+  "annal:type": "fest:Event_format",
+  "annal:type_id": "Event_format",
+  "annal:uri": "fest:Participation",
+  "rdfs:comment": "Participation in activity.  An opportunity try out an activity or interact with a system.",
+  "rdfs:label": "Participation",
+  "rdfs:seeAlso": []
+}

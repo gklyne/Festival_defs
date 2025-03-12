@@ -5,16 +5,16 @@
     },
     "../../coll_context.jsonld"
   ],
-  "@id": "_list/Themes",
+  "@id": "_list/Event_formats",
   "@type": [
     "annal:List"
   ],
-  "annal:default_type": "_type/Theme",
-  "annal:default_view": "_view/Theme",
+  "annal:default_type": "_type/Event_format",
+  "annal:default_view": "_view/Event_format",
   "annal:display_type": "_enum_list_type/List",
-  "annal:id": "Themes",
-  "annal:list_entity_selector": "'fest:Theme' in [@type]",
-  "annal:list_entity_type": "fest:Theme",
+  "annal:id": "Event_formats",
+  "annal:list_entity_selector": "'fest:Event_format' in [@type]",
+  "annal:list_entity_type": "fest:Event_format",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",
@@ -28,6 +28,6 @@
   "annal:type": "annal:List",
   "annal:type_id": "_list",
   "annal:uri": "annal:display/Default_list",
-  "rdfs:comment": "# Theme or topic list\r\n\r\nList entities of type [Theme or topic]($BASE:_type/Theme).",
-  "rdfs:label": "Theme or topic list"
+  "rdfs:comment": "# Formats for events\r\n\r\nList entities of type [Format of event]($BASE:_type/Event_format).",
+  "rdfs:label": "Formats for events"
 }

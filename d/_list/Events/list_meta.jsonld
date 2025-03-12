@@ -14,14 +14,14 @@
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Events",
   "annal:list_entity_selector": "\"prov:Activity\" in [@type]",
-  "annal:list_entity_type": "prov:Event",
+  "annal:list_entity_type": "prov:Activity",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",
       "annal:field_placement": "small:0,12;medium:0,3"
     },
     {
-      "annal:field_id": "_field/Entity_type",
+      "annal:field_id": "_field/Event_format",
       "annal:field_placement": "small:0,12;medium:3,3"
     },
     {

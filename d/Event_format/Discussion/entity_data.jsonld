@@ -1,0 +1,20 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event_format/Discussion",
+  "@type": [
+    "fest:Event_format",
+    "annal:EntityData"
+  ],
+  "annal:id": "Discussion",
+  "annal:type": "fest:Event_format",
+  "annal:type_id": "Event_format",
+  "annal:uri": "fest:Discussion",
+  "rdfs:comment": "## Discussion event format",
+  "rdfs:label": "Discussion",
+  "rdfs:seeAlso": []
+}

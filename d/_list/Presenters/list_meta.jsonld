@@ -13,8 +13,8 @@
   "annal:default_view": "_view/Presenter",
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Presenters",
-  "annal:list_entity_selector": "\"crm:E39_Actor\" in [@type]",
-  "annal:list_entity_type": "crm:E39_Actor",
+  "annal:list_entity_selector": "\"fest:Presenter\" in [@type]",
+  "annal:list_entity_type": "fest:Presenter",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Agent_id",

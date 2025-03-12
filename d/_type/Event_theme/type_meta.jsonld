@@ -1,0 +1,30 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Event_theme",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Event_theme",
+  "annal:ns_prefix": "",
+  "annal:supertype_uri": [
+    {
+      "@id": "fest:Theme"
+    },
+    {
+      "@id": "crm:E55_Type"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Event_themes",
+  "annal:type_view": "_view/Theme",
+  "annal:uri": "fest:Event_theme",
+  "rdfs:comment": "# Theme or topic of event\r\n\r\nEntity type [Theme or topic of event]($BASE:_type/Event_theme), subtype of [Theme or topic]($BASE:_type/Theme).\r\n\r\n@@ This type exists to facilitate data migration.  In due course, just use \"Theme\"?",
+  "rdfs:label": "Theme or topic of event"
+}

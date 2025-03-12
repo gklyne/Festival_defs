@@ -17,7 +17,7 @@
   "annal:field_ref_type": "_type/Theme",
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_entity",
-  "annal:field_value_type": "fest:Theme",
+  "annal:field_value_type": "fest:Event_theme",
   "annal:id": "Event_theme",
   "annal:placeholder": "(Theme or topic of event)",
   "annal:property_uri": "fest:event_theme",

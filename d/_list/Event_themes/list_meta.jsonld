@@ -5,16 +5,16 @@
     },
     "../../coll_context.jsonld"
   ],
-  "@id": "_list/Event_venue",
+  "@id": "_list/Event_themes",
   "@type": [
     "annal:List"
   ],
-  "annal:default_type": "_type/Event_venue",
-  "annal:default_view": "_view/Event_venue",
+  "annal:default_type": "_type/Event_theme",
+  "annal:default_view": "_view/Theme",
   "annal:display_type": "_enum_list_type/List",
-  "annal:id": "Event_venue",
-  "annal:list_entity_selector": "'fest:Event_venue' in [@type]",
-  "annal:list_entity_type": "fest:Event_venue",
+  "annal:id": "Event_themes",
+  "annal:list_entity_selector": "'fest:Event_theme' in [@type]",
+  "annal:list_entity_type": "fest:Event_theme",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",
@@ -27,6 +27,6 @@
   ],
   "annal:type": "annal:List",
   "annal:type_id": "_list",
-  "rdfs:comment": "# Event venue list\r\n\r\nList entities of type [Venue]($BASE:_type/Event_venue).",
-  "rdfs:label": "Event venue list"
+  "rdfs:comment": "# Event themes\r\n\r\nList entities of type [Event themes]($BASE:_type/Event_theme).",
+  "rdfs:label": "Event themes"
 }
