@@ -31,18 +31,23 @@
   "annal:field_placement": "small:0,12;medium:0,6",
   "annal:field_ref_field": "",
   "annal:field_ref_restriction": "",
-  "annal:field_ref_type": "Event",
+  "annal:field_ref_type": "_type/Event",
   "annal:field_render_type": "_enum_render_type/RefMultifield",
   "annal:field_value_mode": "_enum_value_mode/Value_entity",
   "annal:field_value_type": "annal:Text",
   "annal:id": "Event_m",
   "annal:placeholder": "(select Event)",
-  "annal:property_uri": "crm:P12i_was_present_at",
+  "annal:property_uri": "fest:at_event",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
-  "annal:tooltip": "Reference to event; display id and label",
+  "annal:superproperty_uri": [
+    {
+      "@id": "crm:P12i_was_present_at"
+    }
+  ],
+  "annal:tooltip": "Reference to event at which a person was present; display id and label",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "# Event\r\n\r\nReference to event; display id and label",
-  "rdfs:label": "Event"
+  "rdfs:comment": "# Event at which present\r\n\r\nReference to event at which a person was present; display id and label",
+  "rdfs:label": "Event at which present"
 }

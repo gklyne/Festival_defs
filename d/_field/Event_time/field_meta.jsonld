@@ -10,7 +10,7 @@
     "annal:Field"
   ],
   "annal:default_value": "",
-  "annal:field_entity_type": "",
+  "annal:field_entity_type": "fest:Event",
   "annal:field_fields": [],
   "annal:field_placement": "small:0,12;medium:0,4",
   "annal:field_ref_field": "",
@@ -20,14 +20,14 @@
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Text",
   "annal:id": "Event_time",
-  "annal:placeholder": "(hh:mm, 24-hour clock)",
-  "annal:property_uri": "prov:startedAtDate",
+  "annal:placeholder": "(enter time (hh:mm:ss))",
+  "annal:property_uri": "fest:event_time",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:superproperty_uri": [],
-  "annal:tooltip": "Time of event start.  `xsd:time` format should be used (hh:mm:ss), using a 24-hour clock, and where minutes and/or seconds may be omitted.",
+  "annal:tooltip": "Time of event\r\n\r\nxsd:time should be used (hh:mm:ss), with options to omit less significant fields. \r\n\r\n",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "# Event time\r\n\r\nTime of event start.\r\n\r\n`xsd:time` format should be used (hh:mm:ss), using a 24-hour clock, and where minutes and/or seconds may be omitted.\r\n\r\n",
+  "rdfs:comment": "# Event time\r\n\r\nTime of event\r\n\r\nxsd:time should be used (hh:mm:ss), with options to omit less significant fields. \r\n\r\n",
   "rdfs:label": "Event time"
 }

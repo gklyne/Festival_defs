@@ -13,8 +13,8 @@
   "annal:default_view": "_view/Person",
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "People",
-  "annal:list_entity_selector": "\"crm:E21_Person\" in [@type]",
-  "annal:list_entity_type": "crm:E21_Person",
+  "annal:list_entity_selector": "\"fest:Person\" in [@type]",
+  "annal:list_entity_type": "fest:Person",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Person_id",

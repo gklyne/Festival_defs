@@ -18,13 +18,20 @@
   "annal:field_ref_type": "_type/Role",
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_entity",
-  "annal:field_value_type": "prov:Role",
+  "annal:field_value_type": "fest:Role",
   "annal:id": "Agent_role",
   "annal:placeholder": "(Role)",
   "annal:property_uri": "fest:performs_role",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
-  "annal:superproperty_uri": [],
+  "annal:superproperty_uri": [
+    {
+      "@id": "prov:hadRole"
+    },
+    {
+      "@id": "crm:P14.1_in_the_role_of"
+    }
+  ],
   "annal:tooltip": "",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

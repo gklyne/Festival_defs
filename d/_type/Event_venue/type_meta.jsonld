@@ -14,6 +14,9 @@
   "annal:ns_prefix": "fest",
   "annal:supertype_uri": [
     {
+      "@id": "fest:Place"
+    },
+    {
       "@id": "crm:E53_Place"
     }
   ],

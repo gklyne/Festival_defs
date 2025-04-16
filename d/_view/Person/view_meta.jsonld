@@ -13,7 +13,7 @@
   "annal:open_view": true,
   "annal:type": "annal:View",
   "annal:type_id": "_view",
-  "annal:view_entity_type": "prov:Agent",
+  "annal:view_entity_type": "fest:Agent",
   "annal:view_fields": [
     {
       "annal:field_id": "_field/Entity_id",
@@ -31,7 +31,7 @@
       "annal:property_uri": ""
     },
     {
-      "annal:field_id": "_field/contact_t",
+      "annal:field_id": "_field/contact_r",
       "annal:field_placement": "small:0,12",
       "annal:property_uri": ""
     },
@@ -51,6 +51,6 @@
       "annal:property_uri": ""
     }
   ],
-  "rdfs:comment": "View of person or agent",
+  "rdfs:comment": "View of person",
   "rdfs:label": "Person"
 }

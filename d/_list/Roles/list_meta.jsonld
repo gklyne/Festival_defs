@@ -9,19 +9,19 @@
   "@type": [
     "annal:List"
   ],
-  "annal:default_type": "Role",
-  "annal:default_view": "Role",
+  "annal:default_type": "_type/Role",
+  "annal:default_view": "_view/Role",
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Roles",
-  "annal:list_entity_selector": "\"prov:Role\" in [@type]",
-  "annal:list_entity_type": "prov:Role",
+  "annal:list_entity_selector": "\"fest:Role\" in [@type]",
+  "annal:list_entity_type": "fest:Role",
   "annal:list_fields": [
     {
-      "annal:field_id": "Entity_id",
+      "annal:field_id": "_field/Entity_id",
       "annal:field_placement": "small:0,3"
     },
     {
-      "annal:field_id": "Entity_label",
+      "annal:field_id": "_field/Entity_label",
       "annal:field_placement": "small:3,9"
     }
   ],

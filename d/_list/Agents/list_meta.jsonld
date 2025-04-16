@@ -13,8 +13,8 @@
   "annal:default_view": "_view/Agent",
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Agents",
-  "annal:list_entity_selector": "\"prov:Agent\" in [@type]",
-  "annal:list_entity_type": "prov:Agent",
+  "annal:list_entity_selector": "\"fest:Agent\" in [@type]",
+  "annal:list_entity_type": "fest:Agent",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Agent_id",

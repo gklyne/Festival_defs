@@ -8,16 +8,15 @@
   "@id": "Person/test_person",
   "@type": [
     "crm:E21_Person",
-    "prov:Agent",
     "crm:E77_Persistent_Item",
     "prov:Entity",
+    "prov:Agent",
     "crm:E39_Actor",
     "annal:EntityData"
   ],
   "annal:id": "test_person",
   "annal:type": "crm:E21_Person",
   "annal:type_id": "Person",
-  "entity:seeAlso_r": [],
   "fest:contact": [
     {
       "@id": "mailto:test@example.com"
@@ -29,5 +28,10 @@
     }
   ],
   "rdfs:comment": "Example record describing a person who is involved in some way with a festival.",
-  "rdfs:label": "Test Person"
+  "rdfs:label": "Test Person",
+  "rdfs:seeAlso": [
+    {
+      "@id": "https://en.wikipedia.org/wiki/Gravesend"
+    }
+  ]
 }

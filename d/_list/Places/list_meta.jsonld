@@ -13,8 +13,8 @@
   "annal:default_view": "_view/Place",
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Places",
-  "annal:list_entity_selector": "\"crm:E53_Place\" in [@type]",
-  "annal:list_entity_type": "crm:E53_Place",
+  "annal:list_entity_selector": "\"fest:Place\" in [@type]",
+  "annal:list_entity_type": "fest:Place",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",

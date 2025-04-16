@@ -10,7 +10,8 @@
     "annal:Field"
   ],
   "annal:default_value": "",
-  "annal:field_entity_type": "",
+  "annal:field_entity_type": "fest:Event",
+  "annal:field_fields": [],
   "annal:field_placement": "small:0,12;medium:0,4",
   "annal:field_ref_field": "",
   "annal:field_ref_restriction": "",
@@ -20,9 +21,14 @@
   "annal:field_value_type": "annal:Text",
   "annal:id": "Event_date_time",
   "annal:placeholder": "(enter date (yyyy-mm-dd) or date and time (yyyy-mm-ddThh:mm:ss))",
-  "annal:property_uri": "prov:startedAtTime",
+  "annal:property_uri": "fest:event_date_time",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
+  "annal:superproperty_uri": [
+    {
+      "@id": "prov:startedAtTime"
+    }
+  ],
   "annal:tooltip": "Date and time of event\r\n\r\nxsd:dateTime should be used (yyyy-mm-ddThh:mm:ss), with options to omit less significant fields. \r\n\r\n",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

@@ -13,8 +13,8 @@
   "annal:default_view": "_view/Event",
   "annal:display_type": "_enum_list_type/List",
   "annal:id": "Events",
-  "annal:list_entity_selector": "\"prov:Activity\" in [@type]",
-  "annal:list_entity_type": "prov:Activity",
+  "annal:list_entity_selector": "\"fest:Event\" in [@type]",
+  "annal:list_entity_type": "fest:Event",
   "annal:list_fields": [
     {
       "annal:field_id": "_field/Entity_id",

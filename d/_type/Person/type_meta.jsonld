@@ -16,8 +16,11 @@
     }
   ],
   "annal:id": "Person",
-  "annal:ns_prefix": "",
+  "annal:ns_prefix": "fest",
   "annal:supertype_uri": [
+    {
+      "@id": "fest:Agent"
+    },
     {
       "@id": "prov:Entity"
     },
@@ -28,6 +31,9 @@
       "@id": "crm:E39_Actor"
     },
     {
+      "@id": "crm:E21_Person"
+    },
+    {
       "@id": "crm:E77_Persistent_Item"
     }
   ],
@@ -35,7 +41,7 @@
   "annal:type_id": "_type",
   "annal:type_list": "_list/People",
   "annal:type_view": "_view/Person",
-  "annal:uri": "crm:E21_Person",
+  "annal:uri": "fest:Person",
   "rdfs:comment": "Person (as agent)\r\n\r\nSee also: [Agent](../Agent).",
   "rdfs:label": "Person"
 }

@@ -47,5 +47,5 @@
     }
   ],
   "rdfs:comment": "Simple view of an entity",
-  "rdfs:label": "Entity"
+  "rdfs:label": "prov:Entity"
 }

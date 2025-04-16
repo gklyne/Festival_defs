@@ -20,10 +20,14 @@
   "annal:field_value_type": "fest:Theme",
   "annal:id": "Broader_theme",
   "annal:placeholder": "(Broader theme)",
-  "annal:property_uri": "skos:broader",
+  "annal:property_uri": "fest:broader",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
-  "annal:superproperty_uri": [],
+  "annal:superproperty_uri": [
+    {
+      "@id": "skos:broader"
+    }
+  ],
   "annal:tooltip": "Reference to theme of which the current genre is a sub-theme.",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

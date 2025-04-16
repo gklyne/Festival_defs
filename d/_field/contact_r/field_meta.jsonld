@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/contact_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "prov:Agent",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/contact",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "prov:Agent",
+  "annal:id": "contact_r",
+  "annal:placeholder": "(Zero, one or more Contact URL fields)",
+  "annal:property_uri": "fest:has_contact",
+  "annal:repeat_label_add": "Add Contact URL",
+  "annal:repeat_label_delete": "Remove Contact URL",
+  "annal:superproperty_uri": [],
+  "annal:tooltip": "Contact URLs.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Contact URLs\r\n\r\nZero, one or more instances of [Contact URL]($BASE:_field/contact).",
+  "rdfs:label": "Contact URLs"
+}

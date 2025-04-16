@@ -11,11 +11,20 @@
   ],
   "annal:field_aliases": [],
   "annal:id": "Role",
+  "annal:ns_prefix": "",
+  "annal:supertype_uri": [
+    {
+      "@id": "prov:Role"
+    },
+    {
+      "@id": "crm:E55_Type"
+    }
+  ],
   "annal:type": "annal:Type",
   "annal:type_id": "_type",
-  "annal:type_list": "Roles",
-  "annal:type_view": "Role",
-  "annal:uri": "prov:Role",
+  "annal:type_list": "_list/Roles",
+  "annal:type_view": "_view/Role",
+  "annal:uri": "fest:Role",
   "rdfs:comment": "Role of person in activity",
   "rdfs:label": "Role"
 }

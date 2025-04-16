@@ -10,7 +10,7 @@
     "annal:Field"
   ],
   "annal:default_value": "",
-  "annal:field_entity_type": "",
+  "annal:field_entity_type": "fest:Event",
   "annal:field_fields": [],
   "annal:field_placement": "small:0,12;medium:0,4",
   "annal:field_ref_field": "",
@@ -20,14 +20,14 @@
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "annal:Text",
   "annal:id": "Event_date",
-  "annal:placeholder": "(yyyy-mm-dd)",
-  "annal:property_uri": "prov:startedAtDate",
+  "annal:placeholder": "(enter date (yyyy-mm-dd))",
+  "annal:property_uri": "fest:event_date",
   "annal:repeat_label_add": "",
   "annal:repeat_label_delete": "",
   "annal:superproperty_uri": [],
-  "annal:tooltip": "Date of event.  `xsd:date` format should be used (yyyy-mm-dd).\r\n\r\n",
+  "annal:tooltip": "Date of event\r\n\r\nxsd:date should be used (yyyy-mm-dd).\r\n\r\n",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "# Event date\r\n\r\nDate of event\r\n\r\n`xsd:date` format should be used (yyyy-mm-dd).",
+  "rdfs:comment": "# Event date\r\n\r\nDate of event\r\n\r\nxsd:date should be used (yyyy-mm-dd). \r\n\r\n",
   "rdfs:label": "Event date"
 }

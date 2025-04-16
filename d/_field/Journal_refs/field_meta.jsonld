@@ -15,7 +15,7 @@
     {
       "annal:field_id": "_field/Journal_ref",
       "annal:field_placement": "small:0,12",
-      "annal:property_uri": "annal:member"
+      "annal:property_uri": "@id"
     }
   ],
   "annal:field_placement": "small:0,12",
@@ -27,9 +27,10 @@
   "annal:field_value_type": "annal:Field_group",
   "annal:id": "Journal_refs",
   "annal:placeholder": "(references to journal entries)",
-  "annal:property_uri": "annal:member",
+  "annal:property_uri": "journal:ref_journals",
   "annal:repeat_label_add": "Add journal reference",
   "annal:repeat_label_delete": "Remove journal reference",
+  "annal:superproperty_uri": [],
   "annal:tooltip": "References to journal entries",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

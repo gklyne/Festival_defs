@@ -14,12 +14,21 @@
   "annal:type": "crm:E53_Place",
   "annal:type_id": "Place",
   "crm:P89_falls_within": "",
+  "crm:P89i_contains": [
+    {
+      "@id": "Event_venue/test_venue"
+    }
+  ],
   "crm:P89i_contains_repeat": [
     {
       "crm:P89i_contains": "Place/test_venue"
     }
   ],
-  "entity:seeAlso_r": [],
   "rdfs:comment": "Example town which may contain a number of venues",
-  "rdfs:label": "Test town"
+  "rdfs:label": "Test town",
+  "rdfs:seeAlso": [
+    {
+      "@id": "https://en.wikipedia.org/wiki/Gravesend"
+    }
+  ]
 }

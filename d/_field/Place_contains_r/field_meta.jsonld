@@ -10,26 +10,31 @@
     "annal:Field"
   ],
   "annal:default_value": "",
-  "annal:field_entity_type": "crm:E53_Place",
+  "annal:field_entity_type": "fest:Place",
   "annal:field_fields": [
     {
       "annal:field_id": "_field/Place_contains",
       "annal:field_placement": "small:0,12",
-      "annal:property_uri": "crm:P89i_contains"
+      "annal:property_uri": "@id"
     }
   ],
   "annal:field_placement": "small:0,12",
   "annal:field_ref_field": "",
   "annal:field_ref_restriction": "",
   "annal:field_ref_type": "",
-  "annal:field_render_type": "_enum_render_type/Group_Seq_Row",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
-  "annal:field_value_type": "annal:Field_group",
+  "annal:field_value_type": "fest:Place",
   "annal:id": "Place_contains_r",
   "annal:placeholder": "(Repeat field Contains)",
-  "annal:property_uri": "crm:P89i_contains_repeat",
+  "annal:property_uri": "fest:place_contains",
   "annal:repeat_label_add": "Add Contains",
   "annal:repeat_label_delete": "Remove Contains",
+  "annal:superproperty_uri": [
+    {
+      "@id": "crm:P89i_contains"
+    }
+  ],
   "annal:tooltip": "Places that are part of the current place",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

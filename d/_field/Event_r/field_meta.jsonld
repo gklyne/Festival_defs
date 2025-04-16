@@ -15,7 +15,7 @@
     {
       "annal:field_id": "_field/Event_m",
       "annal:field_placement": "small:0,12",
-      "annal:property_uri": ""
+      "annal:property_uri": "@id"
     }
   ],
   "annal:field_placement": "small:0,12",
@@ -31,9 +31,9 @@
   "annal:repeat_label_add": "Add event",
   "annal:repeat_label_delete": "Remove event",
   "annal:superproperty_uri": [],
-  "annal:tooltip": "Events (activities) associated with an entity",
+  "annal:tooltip": "Events (activities) associated with an entity (place, person or agent)",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
-  "rdfs:comment": "# Events\r\n\r\nEvents (activities) associated with an entity",
+  "rdfs:comment": "# Events\r\n\r\nEvents (activities) associated with an entity (e.g. a person, agent or object).",
   "rdfs:label": "Events"
 }

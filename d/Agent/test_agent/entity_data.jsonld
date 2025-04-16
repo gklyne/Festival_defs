@@ -15,7 +15,7 @@
   "annal:id": "test_agent",
   "annal:type": "prov:Agent",
   "annal:type_id": "Agent",
-  "entity:seeAlso_r": [],
+  "rdfs:seeAlso": [],
   "fest:contact": [],
   "fest:performs_role": [
     {

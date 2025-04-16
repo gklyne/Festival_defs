@@ -1,0 +1,40 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/Field_list",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/_field",
+  "annal:default_view": "_view/Field_view",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "Field_list",
+  "annal:list_entity_selector": "'annal:Field' in [@type]",
+  "annal:list_entity_type": "annal:Field",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,4;medium:0,3"
+    },
+    {
+      "annal:field_id": "_field/Field_property",
+      "annal:field_placement": "small:4,4;medium:3,3"
+    },
+    {
+      "annal:field_id": "_field/Field_value_type",
+      "annal:field_placement": "small:0,12,hide;medium:6,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:8,4;medium:9,3"
+    }
+  ],
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "# Field definitions\r\n\r\nThis display lists [field definitions]($BASE:_type/_field/) that may be referenced by [views]($BASE:_type/_view/), [lists]($BASE:_type/_list/) or\r\n[fields]($BASE:_type/_field/).",
+  "rdfs:label": "Field definitions"
+}

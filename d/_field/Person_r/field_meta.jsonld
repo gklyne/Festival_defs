@@ -32,10 +32,14 @@
   "annal:field_value_type": "annal:Field_group",
   "annal:id": "Person_r",
   "annal:placeholder": "",
-  "annal:property_uri": "prov:qualifiedAssociation",
+  "annal:property_uri": "fest:has_people",
   "annal:repeat_label_add": "Add person",
   "annal:repeat_label_delete": "Remove person",
-  "annal:superproperty_uri": [],
+  "annal:superproperty_uri": [
+    {
+      "@id": "prov:qualifiedAssociation"
+    }
+  ],
   "annal:tooltip": "People involved in an event",
   "annal:type": "annal:Field",
   "annal:type_id": "_field",

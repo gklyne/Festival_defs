@@ -15,12 +15,15 @@
   "annal:supertype_uri": [
     {
       "@id": "crm:E55_Type"
+    },
+    {
+      "@id": "skos:Concept"
     }
   ],
   "annal:type": "annal:Type",
   "annal:type_id": "_type",
-  "annal:type_list": "_list/Theme",
-  "annal:type_view": "_view/Theme",
+  "annal:type_list": "_list/Event_themes",
+  "annal:type_view": "_view/Event_theme",
   "annal:uri": "fest:Theme",
   "rdfs:comment": "A theme (or topic, or subject).",
   "rdfs:label": "Theme or topic"

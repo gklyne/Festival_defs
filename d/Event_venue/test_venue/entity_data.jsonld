@@ -1,0 +1,27 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event_venue/test_venue",
+  "@type": [
+    "fest:Event_venue",
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:id": "test_venue",
+  "annal:member": [],
+  "annal:type": "fest:Event_venue",
+  "annal:type_id": "Event_venue",
+  "annal:uri": "fest:test_venue",
+  "crm:P89_falls_within": "Place/test_town",
+  "rdfs:comment": "Example venue where a festival event is held",
+  "rdfs:label": "Test venue",
+  "rdfs:seeAlso": [
+    {
+      "@id": "https://stgeorgesgravesend.org/locations/church-hall/"
+    }
+  ]
+}

@@ -14,8 +14,7 @@
   "annal:id": "test_event",
   "annal:type": "prov:Activity",
   "annal:type_id": "Event",
-  "crm:P7_took_place_at": "Place/test_venue",
-  "entity:seeAlso_r": [],
+  "crm:P7_took_place_at": "Event_venue/test_venue",
   "fest:event_format": "Format/test_format",
   "fest:event_theme": [
     {
@@ -25,15 +24,16 @@
       "@id": "Theme/test_subtheme"
     }
   ],
+  "fest:has_event_format": "Event_format/test_event_format",
   "prov:qualifiedAssociation": [
     {
-      "crm:P12i_was_present_at": "Presenter/test_presenter",
-      "fest:performs_role": "Role/test_role"
+      "fest:performs_role": "Role/test_role",
+      "prov:wasAssociatedWith": "Person/test_person"
     }
   ],
-  "prov:startedAtDate": "2025-01-13",
-  "prov:startedAtDate__2": "17:00",
   "prov:startedAtTime": "2025-01-13T17:00",
+  "prov:wasAssociatedWith": "Person/test_person",
   "rdfs:comment": "Example of a festival event",
-  "rdfs:label": "Test Event"
+  "rdfs:label": "Test Event",
+  "rdfs:seeAlso": []
 }

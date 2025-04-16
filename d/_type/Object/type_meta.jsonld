@@ -1,0 +1,30 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Object",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Object",
+  "annal:ns_prefix": "fest",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "prov:Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Default_list",
+  "annal:type_view": "_view/Default_view",
+  "annal:uri": "fest:Object",
+  "rdfs:comment": "An object, such as a musical instrument or some other object.  May be manufactured or not (cf. Artifact)",
+  "rdfs:label": "Object"
+}

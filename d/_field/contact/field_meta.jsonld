@@ -20,7 +20,7 @@
   "annal:field_value_type": "annal:Identifier",
   "annal:id": "contact",
   "annal:placeholder": "(Contact URL)",
-  "annal:property_uri": "fest:contact",
+  "annal:property_uri": "fest:has_contact",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
   "annal:superproperty_uri": [],
